@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureAreaCalculationLibrary", "FigureAreaCalculationLibrary.csproj", "{1386B604-5F31-4572-9015-721B13746808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTestingForCalculateService", "..\NUnitTestingForCalculateService\NUnitTestingForCalculateService.csproj", "{CFE73D7E-D456-4A11-8C67-7327CD2ECE1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1386B604-5F31-4572-9015-721B13746808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1386B604-5F31-4572-9015-721B13746808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1386B604-5F31-4572-9015-721B13746808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1386B604-5F31-4572-9015-721B13746808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE73D7E-D456-4A11-8C67-7327CD2ECE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE73D7E-D456-4A11-8C67-7327CD2ECE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE73D7E-D456-4A11-8C67-7327CD2ECE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE73D7E-D456-4A11-8C67-7327CD2ECE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CF3E88A-A6DE-480F-B29D-A6A135A30D1C}
+	EndGlobalSection
+EndGlobal
