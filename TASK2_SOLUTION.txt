@@ -1,0 +1,6 @@
+SELECT product_name, product_id FROM products
+LEFT JOIN categories_products
+ON products.product_id = categories_products.product_id
+LEFT JOIN category_name
+ON categories_products.category_id = category_name.category_id
+HAVING product_name IS NOT NULL;
